@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "LumaChat Premium",
+    "slug": "premium-offline-chat",
+    "scheme": "lumachat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-notifications"
+    ],
+    "android": {
+      "package": "com.rudraray15.lumachat"
+    },
+    "ios": {
+      "bundleIdentifier": "com.rudraray15.lumachat"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "local-demo-project"
+      }
+    }
+  }
+}
